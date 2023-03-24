@@ -161,4 +161,32 @@ nav a {
 .image-text-container-flex h4,
 .image-text-container-flex p {
   margin: 0;
+  padding: 0;
+}
+
+.row-3 {
+  display: flex;
+}
+
+.row-3 > * {
+  flex-basis: 33.33%;
+}
+
+.row-3 img {
+  width: 100%;
+}
+
+.row-3 .image-text-container-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.row-3 .image-text-container-flex:first-child {
+  align-items: flex-start;
+}
+
+.row-3 .image-text-container-flex:last-child {
+  align-items: flex-end;
 }
