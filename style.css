@@ -114,3 +114,33 @@ nav a {
   border-radius: 0.25rem;
   cursor: pointer;
 }
+
+.side-news {
+  background-color: var(--vdark-blue);
+  height: 100%;
+}
+
+.side-news h2 {
+  color: var(--softorange);
+  padding: 10px 15px;
+}
+
+.side-news h3 {
+  color: white;
+  padding: 10px 15px;
+}
+
+.side-news p {
+  color: var(--grayish-blue);
+  padding: 0px 15px 10px;
+  margin-bottom: 10px;
+}
+
+.side-news hr {
+  width: 80%;
+  height: 1px;
+  background-color: #ccc;
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px
+}
