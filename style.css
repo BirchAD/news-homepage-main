@@ -144,3 +144,21 @@ nav a {
   margin-top: 15px;
   margin-bottom: 15px
 }
+
+.image-text-container-flex {
+  display: flex;
+}
+
+.image-text-container-flex .image-text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  margin-left: 10px;
+}
+
+.image-text-container-flex h3,
+.image-text-container-flex h4,
+.image-text-container-flex p {
+  margin: 0;
+}
