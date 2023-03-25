@@ -147,6 +147,7 @@ nav a {
 
 .image-text-container-flex {
   display: flex;
+  align-items: flex-start;
 }
 
 .image-text-container-flex .image-text-content {
@@ -189,4 +190,8 @@ nav a {
 
 .row-3 .image-text-container-flex:last-child {
   align-items: flex-end;
+}
+
+.image-text-content h4 {
+  white-space: nowrap;
 }
