@@ -214,6 +214,10 @@ nav a {
   align-items: flex-end;
 }
 
+#icon {
+  display: none;
+}
+
 
 
 
@@ -254,5 +258,23 @@ nav a {
 
   .row-3 {
     grid-row: auto;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  #icon {
+    display: block;
+  }
+
+  .nav-links.show-nav {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .nav-links.show-nav li {
+    margin: 10px;
   }
 }

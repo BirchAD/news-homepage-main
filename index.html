@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <link href="style.css" rel="stylesheet" type="text/css">
   <title>Tech News homepage</title>
@@ -13,13 +13,16 @@
     <header>
       <img src="./assets/images/logo.svg" alt="logo">
       <nav>
-        <ul class="nav-links">
+        <ul class="nav-links show-nav">
           <li><a href="#">Home</a></li>
           <li><a href="#">New</a></li>
           <li><a href="#">Popular</a></li>
           <li><a href="#">Trending</a></li>
           <li><a href="#">Categories</a></li>
         </ul>
+        <a href="javascript:void(0);" id="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+          </a>
       </nav>
     </header>
     <div class="wrapper">
@@ -32,7 +35,7 @@
           We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people.
           But is it really fulfilling its promise?
         </p>
-        <button class="red-button">Read more</button aria="Read More Button">
+        <button class="red-button" aria="Read More Button">Read more</button>
       </div>
       <div class="col-3 row-span-2">
         <section class="side-news">
@@ -75,4 +78,17 @@
     </div>
   </div>
 </body>
+<script>
+  function myFunction() {
+    var x = document.getElementById("icon");
+    var y = document.querySelector(".nav-links");
+    if (y.classList.contains("show-nav")) {
+      y.classList.remove("show-nav");
+      x.innerHTML = "<i class='fa fa-bars'></i>";
+    } else {
+      y.classList.add("show-nav");
+      x.innerHTML = "<i class='fa fa-times'></i>";
+    }
+  }
+</script>
 </html>
