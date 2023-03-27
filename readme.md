@@ -6,6 +6,7 @@
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
 - [Built with](#built-with)
+- [Challenges](#challenges)
 - [Author](#author)
 
 ## Overview
@@ -29,6 +30,10 @@ Users should be able to:
 - CSS custom properties
 - Flexbox
 - CSS Grid
+
+### Challenges / Continued Development
+
+- Creating grid for the news section at the bottom to allow each heading to be in line and the same height as the image
 
 ## Author
 
