@@ -66,6 +66,10 @@ nav a {
   color: var(--dkgrayish-blue)
 }
 
+nav a:hover {
+  color: var(--softorange)
+}
+
 .wrapper {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -164,15 +168,13 @@ nav a {
 
 }
 
-.side-news-hover:hover {
-  text-decoration: yellow;
-  color: yellow;
-}
-
 .side-news a {
   text-decoration: none
 }
 
+.side-news a:hover {
+  color: var(--softorange);
+}
 .wrapper {
   overflow-x: hidden;
 }
